@@ -269,3 +269,8 @@ It is one of the main drivers used to calculate labour requirements.
 </details>
 
 </details>
+
+<details>
+<summary>🖥️ Example Horizon Dashboard</summary>
+
+</details>
