@@ -299,37 +299,12 @@ Hover over most metrics within Horizon to view additional information or calcula
 ---
 
 
-
-
 <details>
 <summary>⚙️ Setting Up Your Environment</summary>
 
 <details>
-<summary>💻 Install PostgreSQL</summary>
+<summary>💻 Setting up EU AMZL RDS ODBC </summary>
 
-Steps...
-
-</details>
-
-<details>
-<summary>🔑 Configure ODBC</summary>
-
-Steps...
-
-</details>
-
-<details>
-<summary>📈 Access ALPS</summary>
-
-Steps...
-
-</details>
-
-<details>
-<summary>📊 Access Horizon</summary>
-
-Steps...
-
-</details>
+Follow this link and it's steps: https://w.amazon.com/bin/view/AMZL-EU-PANDA/BI/NewJoinee/SA_Planning/Setting_RDS
 
 </details>
