@@ -334,5 +334,10 @@ https://w.amazon.com/bin/view/AMZL-EU-PANDA/BI/NewJoinee/SA_Planning/Setting_RDS
 
    ```excel
    =XLOOKUP()
+   
+</details>
+</details>
 
+<details>
+<summary>👷🏼‍♂️ Second Step: Running the input files into ALPS</summary>
 
