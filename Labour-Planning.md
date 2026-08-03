@@ -277,7 +277,7 @@ This section provides an overview of the Horizon dashboard and explains the purp
 
 ### 📊 Dashboard Overview
 
-> *(Insert screenshot here)*
+<img src="images/dashboard.png" alt="Horizon Dashboard" width="100%">
 
 ### 📌 Key Sections
 
