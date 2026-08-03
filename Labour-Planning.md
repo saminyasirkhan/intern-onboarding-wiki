@@ -294,4 +294,39 @@ This section provides an overview of the Horizon dashboard and explains the purp
 
 Hover over most metrics within Horizon to view additional information or calculation details.
 
+
+
+
+
+<details>
+<summary>⚙️ Setting Up Your Environment</summary>
+
+<details>
+<summary>💻 Install PostgreSQL</summary>
+
+Steps...
+
+</details>
+
+<details>
+<summary>🔑 Configure ODBC</summary>
+
+Steps...
+
+</details>
+
+<details>
+<summary>📈 Access ALPS</summary>
+
+Steps...
+
+</details>
+
+<details>
+<summary>📊 Access Horizon</summary>
+
+Steps...
+
+</details>
+
 </details>
