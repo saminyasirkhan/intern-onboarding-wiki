@@ -320,32 +320,108 @@ https://w.amazon.com/bin/view/AMZL-EU-PANDA/BI/NewJoinee/SA_Planning/Setting_RDS
 <details>
 <summary>👷🏼‍♂️ First Step: Roster Validation</summary>
 
-**The Big Picture**
-ALPS decides how many people DAB1 needs each shift. To do that, it needs to know who's actually on the roster next week. But people are constantly moving: leaving, joining, switching shifts. Those movements live in a separate Roster Changes file. Your job in roster validation is to make sure the plan's inputs file agrees with those changes — no missing moves, no double-counted moves.
+## 📖 The Big Picture: Why Roster Validation Exists
 
-Think of it like two lists that must match up:
+ALPS decides how many people **DAB1** needs each shift. To do that, it first needs to know **who is actually expected to work next week**.
 
- ROSTER CHANGES FILE                         INPUTS FILE   (the "source of truth"                      (what ALPS will actually
-    from HR/ops — what SHOULD               =   read when it plans)
-    happen next week)               
+However, associates are constantly:
+- Joining
+- Leaving
+- Transferring
+- Changing shifts
 
-1. Open ALPS on your desktop and make sure you are using the most recent version.
-2. Download the latest input file for your station.
-3. Go to:
+These changes are recorded in a separate **Roster Changes** file.
 
-   `\\ant\dept\LMA\EU Capacity Planning\ALPS\Roster Changes\UK\[Station Name]`
+Your job during **Roster Validation** is to ensure the **ALPS Inputs File** accurately reflects those changes **before** the labour plan is generated. Missing or incorrect roster changes can result in understaffing, overstaffing, or incorrect labour calculations.
 
-   This folder contains the roster changes file.
-4. Open the input file and go to the **Transfers** tab (`Transfer_Type`).
-5. Copy the employee ID.
-6. Go to the **Roster** tab, which contains the current live roster.
-7. Paste the employee ID and use:
+### 💡 Think of it like this
 
-   ```excel
-   =XLOOKUP()
-   
+```text
+┌──────────────────────────────┐        Validate        ┌──────────────────────────────┐
+│     ROSTER CHANGES FILE      │ ───────────────────▶   │         INPUTS FILE          │
+│                              │                       │                              │
+│  Source of truth from Ops    │                       │  Used by ALPS to build the  │
+│  • Joiners                   │                       │  labour plan                 │
+│  • Leavers                   │                       │                              │
+│  • Shift changes             │                       │                              │
+│  • Transfers                 │                       │                              │
+└──────────────────────────────┘                       └──────────────────────────────┘
+```
+
+If the **Inputs File** doesn't match the **Roster Changes File**, ALPS will generate an incorrect labour plan.
+
+---
+
+## 📝 Steps
+
+### 1️⃣ Download the latest Inputs File
+
+Open **ALPS** on your desktop (ensure you're using the latest version) and download the most recent **Inputs File** for your station.
+
+---
+
+### 2️⃣ Open the Roster Changes folder
+
+Navigate to:
+
+```text
+\\ant\dept\LMA\EU Capacity Planning\ALPS\Roster Changes\UK\[Station Name]
+```
+
+This folder contains the latest **Roster Changes** file for your site.
+
+---
+
+### 3️⃣ Open the Transfers worksheet
+
+Within the **Inputs File**, open the **Transfers** worksheet (`Transfer_Type`).
+
+This sheet records associates transferring into or out of the station.
+
+---
+
+### 4️⃣ Find the associate
+
+Copy the associate's **Employee ID** from the Transfers sheet.
+
+---
+
+### 5️⃣ Validate against the Roster
+
+Open the **Roster** worksheet (the current live roster).
+
+Paste the Employee ID and use **XLOOKUP** to confirm whether the associate already exists in the roster.
+
+```excel
+=XLOOKUP(EmployeeID, Lookup_Array, Return_Array, "Not Found")
+```
+
+If the employee is **not found**, investigate whether they should be added or whether the transfer information is incorrect.
+
+---
+
+✅ **Outcome**
+
+By the end of this process:
+
+- The **Roster Changes File** and **Inputs File** should match.
+- Every transfer has been validated.
+- ALPS can generate an accurate labour plan using the correct staffing data.
+
 </details>
+
 </details>
+
+
+
+
+
+
+
+
+
+
+
 
 <details>
 <summary>👷🏼‍♂️ Second Step: Running the input files into ALPS</summary>
