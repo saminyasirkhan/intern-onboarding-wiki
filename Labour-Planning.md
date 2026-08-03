@@ -294,6 +294,10 @@ This section provides an overview of the Horizon dashboard and explains the purp
 
 Hover over most metrics within Horizon to view additional information or calculation details.
 
+</details>
+
+---
+
 
 
 
