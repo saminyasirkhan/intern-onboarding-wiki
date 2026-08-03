@@ -14,6 +14,22 @@ Planning is rarely the same from one day to the next. This section documents com
 
 TPH is one of the key inputs used when determining how many associates are required during a shift. A higher TPH generally means more work is completed each hour, reducing the number of labour hours needed for the same volume.
 
+<details>
+<summary>🎯 What is TPH Target?</summary>
+
+The **TPH Target** is the desired throughput per hour that a site aims to achieve based on planning assumptions and operational goals.
+
+</details>
+
+<details>
+<summary>📉 What is TPH Delta?</summary>
+
+**TPH Delta** is the difference between the actual TPH achieved and the planned TPH target.
+
+A positive delta means actual throughput exceeded the target, while a negative delta means the site processed fewer packages per hour than planned.
+
+</details>
+
 </details>
 
 <details>
