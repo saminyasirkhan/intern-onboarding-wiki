@@ -8,87 +8,263 @@ Planning is rarely the same from one day to the next. This section documents com
 <summary>📚 Basic Theory</summary>
 
 <details>
-<summary>📊 What is TPH?</summary>
+<summary>📦 Volume</summary>
 
-**TPH (Throughput Per Hour)** is the average number of packages a site is expected to process in one hour.
-
-TPH is one of the key inputs used when determining how many associates are required during a shift. A higher TPH generally means more work is completed each hour, reducing the number of labour hours needed for the same volume.
-
-<details>
-<summary>🎯 What is TPH Target?</summary>
-
-The **TPH Target** is the desired throughput per hour that a site aims to achieve based on planning assumptions and operational goals.
+**Volume** is the forecasted number of packages expected to be processed during a planning period.
 
 </details>
 
 <details>
-<summary>📉 What is TPH Delta?</summary>
+<summary>🔄 Rolled Volume</summary>
 
-**TPH Delta** is the difference between the actual TPH achieved and the planned TPH target.
-
-A positive delta means actual throughput exceeded the target, while a negative delta means the site processed fewer packages per hour than planned.
-
-</details>
+**Rolled Volume** is package volume carried over from a previous planning period because it was not processed.
 
 </details>
 
 <details>
-<summary>👥 What is HC?</summary>
+<summary>⚠️ Volume Beyond Mechanical Capacity</summary>
 
-**HC (Headcount)** refers to the total number of associates scheduled or required to work during a particular period.
-
-Labour planners adjust headcount based on forecasted volume, TPH, and operational constraints.
+**Volume Beyond Mechanical Capacity** is the amount of forecasted volume that exceeds what the site's equipment can physically process.
 
 </details>
 
 <details>
-<summary>⏰ What is VET?</summary>
+<summary>🏭 Max Capacity</summary>
 
-**VET (Voluntary Extra Time)** allows associates to voluntarily pick up additional shifts when extra labour is required.
-
-It is commonly offered when forecasted demand exceeds the currently scheduled workforce.
+**Max Capacity** is the maximum volume the site can process under normal operating conditions.
 
 </details>
 
 <details>
-<summary>🏠 What is VTO?</summary>
+<summary>📊 Max Capacity UC</summary>
 
-**VTO (Voluntary Time Off)** allows associates to leave work voluntarily when there is more labour available than operational demand requires.
-
-It helps reduce unnecessary labour costs while giving associates the option to finish their shift early.
+**Max Capacity UC** is the site's maximum processing capacity expressed as a unit count.
 
 </details>
 
 <details>
-<summary>📦 What is Forecasting?</summary>
+<summary>📈 TPH (Throughput Per Hour)</summary>
 
-Forecasting is the process of predicting future parcel volume so that sufficient labour can be planned in advance.
+**TPH** is the average number of packages processed per labour hour.
 
-Forecast accuracy is one of the most important factors in successful labour planning.
-
-</details>
-
-<details>
-<summary>⚖️ Capacity vs Demand</summary>
-
-- **Demand** is the amount of work expected (for example, parcel volume).
-- **Capacity** is the amount of work the available workforce can complete.
-
-The objective of Labour Planning is to align capacity with forecasted demand as closely as possible.
+It is one of the main drivers used to calculate labour requirements.
 
 </details>
 
 <details>
-<summary>🗺️ Labour Planning Workflow</summary>
+<summary>🎯 TPH QxG</summary>
 
-A simplified planning workflow is:
+**TPH QxG** is the target Throughput Per Hour that the labour plan is measured against.
 
-1. Receive forecasted volume.
-2. Review current staffing.
-3. Calculate labour requirements.
-4. Adjust plans if required.
-5. Publish the final labour plan.
-6. Monitor and react to operational changes.
+</details>
+
+<details>
+<summary>📉 TPH QxG Delta</summary>
+
+**TPH QxG Delta** is the difference between the actual TPH achieved and the planned TPH target.
+
+</details>
+
+<details>
+<summary>🔄 Transfer by Type</summary>
+
+**Transfer by Type** shows labour hours transferred into or out of a site, grouped by transfer category.
+
+</details>
+
+<details>
+<summary>🚫 Absence %</summary>
+
+**Absence Percentage** is the percentage of scheduled associates expected to be absent during the shift.
+
+</details>
+
+<details>
+<summary>👋 Attrition</summary>
+
+**Attrition** is the number of associates leaving the workforce.
+
+</details>
+
+<details>
+<summary>📉 Attrition %</summary>
+
+**Attrition Percentage** expresses workforce attrition as a percentage of the total workforce.
+
+</details>
+
+<details>
+<summary>👥 Roster HC</summary>
+
+**Roster Headcount (HC)** is the number of associates currently rostered on the schedule.
+
+</details>
+
+<details>
+<summary>📝 Labour Order</summary>
+
+**Labour Order** is the staffing request that specifies how many associates are required.
+
+</details>
+
+<details>
+<summary>⏰ Scheduled Hours</summary>
+
+**Scheduled Hours** are the total labour hours currently scheduled.
+
+</details>
+
+<details>
+<summary>✅ Needed Hours</summary>
+
+**Needed Hours** are the total labour hours required to meet forecasted demand.
+
+</details>
+
+<details>
+<summary>🙋 Show Hours</summary>
+
+**Show Hours** are the labour hours actually worked by associates who attend their scheduled shifts.
+
+</details>
+
+<details>
+<summary>➕ VET Hours Required</summary>
+
+**VET Hours Required** are the additional voluntary extra-time hours needed to satisfy demand.
+
+</details>
+
+<details>
+<summary>📈 VET Hours Achievable</summary>
+
+**VET Hours Achievable** are the number of VET hours that can realistically be filled.
+
+</details>
+
+<details>
+<summary>✔️ VET Hours Accepted</summary>
+
+**VET Hours Accepted** are the VET hours associates have accepted.
+
+</details>
+
+<details>
+<summary>❗ Deficit Hours</summary>
+
+**Deficit Hours** represent the shortfall between available labour hours and required labour hours.
+
+</details>
+
+<details>
+<summary>➖ VTO Hours Required</summary>
+
+**VTO Hours Required** are the voluntary time-off hours needed to reduce excess labour.
+
+</details>
+
+<details>
+<summary>📉 VTO Hours Achievable</summary>
+
+**VTO Hours Achievable** are the number of VTO hours that can realistically be offered.
+
+</details>
+
+<details>
+<summary>✔️ VTO Hours Accepted</summary>
+
+**VTO Hours Accepted** are the VTO hours associates have chosen to take.
+
+</details>
+
+<details>
+<summary>💤 Idle Hours</summary>
+
+**Idle Hours** are paid labour hours where associates are not performing productive work.
+
+</details>
+
+<details>
+<summary>☕ Paid Break Hours</summary>
+
+**Paid Break Hours** are paid break periods included within scheduled shifts.
+
+</details>
+
+<details>
+<summary>🆕 New Hire Non-Productive Hours</summary>
+
+**New Hire Non-Productive Hours** are labour hours allocated to onboarding and ramp-up activities where new associates are not yet fully productive.
+
+</details>
+
+<details>
+<summary>🎓 Ambassador Hours</summary>
+
+**Ambassador Hours** are labour hours allocated to ambassadors responsible for training and supporting new associates.
+
+</details>
+
+<details>
+<summary>📚 Dilution Hours</summary>
+
+**Dilution Hours** are labour hours spent on non-productive activities such as meetings, training, or administrative work.
+
+</details>
+
+<details>
+<summary>➕ Hours Reallocation (+)</summary>
+
+**Hours Reallocation (+)** represents labour hours reassigned into an activity.
+
+</details>
+
+<details>
+<summary>➖ Hours Reallocation (-)</summary>
+
+**Hours Reallocation (-)** represents labour hours reassigned away from an activity.
+
+</details>
+
+<details>
+<summary>📈 New Hire TPH Impact</summary>
+
+**New Hire TPH Impact** measures the reduction in expected throughput caused by associates who are still learning.
+
+</details>
+
+<details>
+<summary>📊 Gross Excess %</summary>
+
+**Gross Excess Percentage** is the percentage of labour available above the initial requirement before any adjustments.
+
+</details>
+
+<details>
+<summary>📉 Net Excess %</summary>
+
+**Net Excess Percentage** is the remaining labour excess after reallocations and adjustments have been made.
+
+</details>
+
+<details>
+<summary>🛤️ ADTA FPP %</summary>
+
+**ADTA Flow Path Percentage (FPP)** is the proportion of volume processed through the Automated Direct-to-Aisle flow path.
+
+</details>
+
+<details>
+<summary>🧭 Flow Path Percentage</summary>
+
+**Flow Path Percentage** is the percentage of total package volume routed through each operational flow path.
+
+</details>
+
+<details>
+<summary>📦 Volume Processed</summary>
+
+**Volume Processed** is the actual number of packages successfully processed during the planning period.
 
 </details>
 
