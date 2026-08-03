@@ -308,3 +308,22 @@ Hover over most metrics within Horizon to view additional information or calcula
 Follow this link and it's steps: https://w.amazon.com/bin/view/AMZL-EU-PANDA/BI/NewJoinee/SA_Planning/Setting_RDS
 
 </details>
+
+---
+
+<details>
+<summary>Practical Planning Labor Planning 👷🏼</summary>
+
+<details>
+<summary> First Step: Roaster Validation 👷🏼‍♂️ </summary>
+1. Go to ALPS on your desktop (make sure its the most recent version) and download the latest input file for your station  
+2. Go to \\ant\dept\LMA\EU Capacity Planning\ALPS\Roster Changes\UK\[Station name] which contains the roaster changes file
+3. Then go to the Transfers tab on the excel sheet (Transfer_Type) inside the inputs file. 
+4. Copy the employee ID and go the roaster tab (current live roaster) on the excel sheet and paste it. Make sure to do "=XLOOKUP().
+
+
+
+</details>
+
+
+
