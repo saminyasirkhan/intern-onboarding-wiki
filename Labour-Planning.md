@@ -320,6 +320,15 @@ https://w.amazon.com/bin/view/AMZL-EU-PANDA/BI/NewJoinee/SA_Planning/Setting_RDS
 <details>
 <summary>👷🏼‍♂️ First Step: Roster Validation</summary>
 
+**The Big Picture**
+ALPS decides how many people DAB1 needs each shift. To do that, it needs to know who's actually on the roster next week. But people are constantly moving: leaving, joining, switching shifts. Those movements live in a separate Roster Changes file. Your job in roster validation is to make sure the plan's inputs file agrees with those changes — no missing moves, no double-counted moves.
+
+Think of it like two lists that must match up:
+
+ ROSTER CHANGES FILE                         INPUTS FILE   (the "source of truth"                      (what ALPS will actually
+    from HR/ops — what SHOULD               =   read when it plans)
+    happen next week)               
+
 1. Open ALPS on your desktop and make sure you are using the most recent version.
 2. Download the latest input file for your station.
 3. Go to:
