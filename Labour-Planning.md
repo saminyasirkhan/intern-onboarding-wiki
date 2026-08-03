@@ -298,32 +298,41 @@ Hover over most metrics within Horizon to view additional information or calcula
 
 ---
 
-
 <details>
 <summary>⚙️ Setting Up Your Environment</summary>
 
 <details>
-<summary>💻 Setting up EU AMZL RDS ODBC </summary>
+<summary>💻 Setting Up EU AMZL RDS ODBC</summary>
 
-Follow this link and it's steps: https://w.amazon.com/bin/view/AMZL-EU-PANDA/BI/NewJoinee/SA_Planning/Setting_RDS
+Follow the steps in this guide:
+
+https://w.amazon.com/bin/view/AMZL-EU-PANDA/BI/NewJoinee/SA_Planning/Setting_RDS
+
+</details>
 
 </details>
 
 ---
 
 <details>
-<summary>Practical Planning Labor Planning 👷🏼</summary>
+<summary>👷🏼 Practical Labour Planning</summary>
 
 <details>
-<summary> First Step: Roaster Validation 👷🏼‍♂️ </summary>
-1. Go to ALPS on your desktop (make sure its the most recent version) and download the latest input file for your station  
-2. Go to \\ant\dept\LMA\EU Capacity Planning\ALPS\Roster Changes\UK\[Station name] which contains the roaster changes file
-3. Then go to the Transfers tab on the excel sheet (Transfer_Type) inside the inputs file. 
-4. Copy the employee ID and go the roaster tab (current live roaster) on the excel sheet and paste it. Make sure to do "=XLOOKUP().
+<summary>👷🏼‍♂️ First Step: Roster Validation</summary>
 
+1. Open ALPS on your desktop and make sure you are using the most recent version.
+2. Download the latest input file for your station.
+3. Go to:
 
+   `\\ant\dept\LMA\EU Capacity Planning\ALPS\Roster Changes\UK\[Station Name]`
 
-</details>
+   This folder contains the roster changes file.
+4. Open the input file and go to the **Transfers** tab (`Transfer_Type`).
+5. Copy the employee ID.
+6. Go to the **Roster** tab, which contains the current live roster.
+7. Paste the employee ID and use:
 
+   ```excel
+   =XLOOKUP()
 
 
