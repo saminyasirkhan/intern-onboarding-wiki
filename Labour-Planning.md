@@ -273,4 +273,25 @@ It is one of the main drivers used to calculate labour requirements.
 <details>
 <summary>🖥️ Example Horizon Dashboard</summary>
 
+This section provides an overview of the Horizon dashboard and explains the purpose of each key area used during Labour Planning.
+
+### 📊 Dashboard Overview
+
+> *(Insert screenshot here)*
+
+### 📌 Key Sections
+
+- 📦 **Forecast Volume** – Displays the expected package volume.
+- 📈 **TPH** – Current and target throughput per hour.
+- 👥 **Headcount (HC)** – Planned workforce.
+- ⏰ **Scheduled Hours** – Total labour hours currently rostered.
+- ✅ **Needed Hours** – Labour hours required to meet demand.
+- ➕ **VET** – Additional hours required.
+- ➖ **VTO** – Hours that can be reduced.
+- 📊 **Capacity Metrics** – Site capacity and utilisation.
+
+### 💡 Tip
+
+Hover over most metrics within Horizon to view additional information or calculation details.
+
 </details>
