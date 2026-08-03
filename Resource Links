@@ -1,8 +1,14 @@
 Labour Planning Links:
-1) Alps:
-2) SSPOT:
-3) Horizon: 
+1) Roaster Validation: \\ant\dept\LMA\EU Capacity Planning\ALPS\Roster Changes\UK\[site name] — Shared network folder where you validate and track roster (staffing schedule) changes for each UK site before they feed into ALPS.
+
+2) Alps: https://amzl-dub.alps-basecamp.lamps.amazon.dev/select_site — Amazon Logistics Planning System; the core tool that generates weekly labour plans (headcount, shifts, VET/VTO) for delivery stations.
+
+3) SSPOT: https://sspot.dub.corp.amazon.com/ — Self-service planning/operations tool used to pull site data and reporting to support capacity planning decisions.
+
+4) Horizon: https://horizon.harmony.a2z.com/horizon/amzl The AMZL planning portal where you generate inputs files, launch plans, and manage the end-to-end planning workflow.
+
+5) AgentSpaces: https://agentspaces.amazon.dev/app  — Amazon's AI development companion where you can automate planning tasks, run ALPS queries, and get help via chat.
 
 Socials: 
-1) Slack: 
-2) Outlook
+1) Slack: https://slack.com/intl/en-gb/  — Amazon's instant-messaging tool for team chat, channels, and quick collaboration.
+2) Outlook: https://outlook.cloud.microsoft/mail/ — Your Amazon email and calendar for meetings, invites, and formal communication.
