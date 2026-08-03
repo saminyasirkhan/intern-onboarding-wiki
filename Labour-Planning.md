@@ -297,7 +297,6 @@ Hover over most metrics within Horizon to view additional information or calcula
 
 
 
-
 <details>
 <summary>⚙️ Setting Up Your Environment</summary>
 
