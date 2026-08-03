@@ -1,14 +1,53 @@
-Labour Planning Links:
-1) Roaster Validation: \\ant\dept\LMA\EU Capacity Planning\ALPS\Roster Changes\UK\[site name] — Shared network folder where you validate and track roster (staffing schedule) changes for each UK site before they feed into ALPS.
+# 🔗 Resource Access
 
-2) Alps: https://amzl-dub.alps-basecamp.lamps.amazon.dev/select_site — Amazon Logistics Planning System; the core tool that generates weekly labour plans (headcount, shifts, VET/VTO) for delivery stations.
+## 📈 Labour Planning Tools
 
-3) SSPOT: https://sspot.dub.corp.amazon.com/ — Self-service planning/operations tool used to pull site data and reporting to support capacity planning decisions.
+### 1️⃣ 📂 Roster Validation
+**Location:**  
+`\\ant\dept\LMA\EU Capacity Planning\ALPS\Roster Changes\UK\[Site Name]`
 
-4) Horizon: https://horizon.harmony.a2z.com/horizon/amzl The AMZL planning portal where you generate inputs files, launch plans, and manage the end-to-end planning workflow.
+Shared network folder where you validate and track roster (staffing schedule) changes for each UK site before they feed into ALPS.
 
-5) AgentSpaces: https://agentspaces.amazon.dev/app  — Amazon's AI development companion where you can automate planning tasks, run ALPS queries, and get help via chat.
+---
 
-Socials: 
-1) Slack: https://slack.com/intl/en-gb/  — Amazon's instant-messaging tool for team chat, channels, and quick collaboration.
-2) Outlook: https://outlook.cloud.microsoft/mail/ — Your Amazon email and calendar for meetings, invites, and formal communication.
+### 2️⃣ 📊 ALPS
+🔗 https://amzl-dub.alps-basecamp.lamps.amazon.dev/select_site
+
+Amazon Logistics Planning System (ALPS) – the core tool used to generate weekly labour plans, including headcount, shift allocation, VET, and VTO.
+
+---
+
+### 3️⃣ 📋 SSPOT
+🔗 https://sspot.dub.corp.amazon.com/
+
+Self-service planning and operations tool used to retrieve site data and reports that support labour planning decisions.
+
+---
+
+### 4️⃣ 🌍 Horizon
+🔗 https://horizon.harmony.a2z.com/horizon/amzl
+
+The AMZL planning portal used to generate input files, launch plans, and manage the end-to-end planning workflow.
+
+---
+
+### 5️⃣ 🤖 AgentSpaces
+🔗 https://agentspaces.amazon.dev/app
+
+Amazon's AI assistant for automating planning tasks, querying ALPS, and providing AI-powered support through chat.
+
+---
+
+# 💬 Communication & Collaboration
+
+### 💬 Slack
+🔗 https://slack.com/intl/en-gb/
+
+Amazon's instant messaging platform used for team communication, channels, announcements, and quick collaboration.
+
+---
+
+### 📧 Outlook
+🔗 https://outlook.cloud.microsoft/mail/
+
+Your Amazon email and calendar used for meetings, invitations, and formal communication.
