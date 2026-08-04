@@ -407,31 +407,14 @@ The final horizon result: https://horizon.harmony.a2z.com/horizon/amzl/alpx?plan
 
 ### First step: download both of the files and open them side by side
 
-┌─────────────────────────────────────┐     ┌─────────────────────────────────────────┐│  ROSTER CHANGES (RV) FILE│ │  DAB1_2026-30_AMZL_inputs.xlsx│
-│  (lives on the \\ant network drive) │     │  (you generated this LOCALLY)            │
-│                                     │     │                                          │
-│  One row per change:                │     │  ┌─────────────┐   ┌──────────────────┐  │
-│   • Change type (Release/Transfer)  │     │  │ ROSTER tab  │   │ TRANSFERS tab    │  │
-│   • Employee ID                     │     │  │             │   │                  │  │
-│   • Current shift code              │     │  │ everyone    │   │ the +/- head     │  │
-│   • FUTURE shift code               │     │  │ currently   │   │ moves ALPS       │  │
-│   • Effective date                  │     │  │ on roster + │   │ should apply     │  │
-│                                     │     │  │ their shift │   │                  │  │
-└─────────────────────────────────────┘     │  └─────────────┘   └──────────────────┘  │
-                                             └─────────────────────────────────────────┘
+<img src="images/picture%201.png" alt="Roster Validation Example" width="100%">
 
-* Roster tab = a big list: employee ID → the shift code they're on right now.
-* Transfers tab = a list of adjustments: "add a head here (+1), remove a head there (−1).
+### *Roster tab = a big list: employee ID → the shift code they're on right now.
+### *Transfers tab = a list of adjustments: "add a head here (+1), remove a head there (−1).
 
 Your 3 employees from the RV file
 
-
-
-Emp ID       Change type            Current code     Future code     Effective 
-206268224    Release (FTC)          S-CI316A-RTS     (blank)         18/07
-207696931    Release (FTC)          N-FU603G-NDS     (blank)         18/07
-207742861    Shift transfer         N-FU403G-NDS  →  N-FU603G-NDS    19/07
-
+<img src="images/picture%202.png" alt="3 employees from the RV file" width="100%">
 
 
 Two are leavers (no future code — they're just gone). One is a transfer (moving from one shift to another).
