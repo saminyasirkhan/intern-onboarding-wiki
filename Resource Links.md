@@ -51,3 +51,11 @@ Amazon's instant messaging platform used for team communication, channels, annou
 🔗 https://outlook.cloud.microsoft/mail/
 
 Your Amazon email and calendar used for meetings, invitations, and formal communication.
+
+# 💬 Additional Links 🔗
+
+1. SSPOT Main Activity & FCLM Mapping Standard Operating Procedure (SOP): https://policy.a2z.com/docs/722339/publication
+
+2. 
+
+
