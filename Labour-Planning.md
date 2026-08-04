@@ -407,7 +407,7 @@ The final horizon result: https://horizon.harmony.a2z.com/horizon/amzl/alpx?plan
 
 ### First step: download both of the files and open them side by side
 
-┌─────────────────────────────────────┐     ┌─────────────────────────────────────────┐│  ROSTER CHANGES (RV) FILE            │     │  DAB1_2026-30_AMZL_inputs.xlsx            │
+┌─────────────────────────────────────┐     ┌─────────────────────────────────────────┐│  ROSTER CHANGES (RV) FILE│ │  DAB1_2026-30_AMZL_inputs.xlsx│
 │  (lives on the \\ant network drive) │     │  (you generated this LOCALLY)            │
 │                                     │     │                                          │
 │  One row per change:                │     │  ┌─────────────┐   ┌──────────────────┐  │
