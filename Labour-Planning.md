@@ -350,7 +350,7 @@ Your job during **Roster Validation** is to ensure the **ALPS Inputs File** accu
 
 If the **Inputs File** doesn't match the **Roster Changes File**, ALPS will generate an incorrect labor plan.
 
-<img src="images/picture%205.png" alt=" Additional visualization ="100%">_
+<img src="images/picture%205.png" alt="Additional visualization" width="100%">
 
 ---
 
