@@ -400,6 +400,68 @@ If the employee is **not found**, investigate whether they should be added or wh
 
 ---
 
+<details>
+<summary>👷🏼 Planning Example for DAB1</summary>
+
+The final horizon result: https://horizon.harmony.a2z.com/horizon/amzl/alpx?plan_id=594feb1a-4d36-42c8-b9ec-bf23fc2f38dd
+
+### First step: download both of the files and open them side by side
+
+┌─────────────────────────────────────┐     ┌─────────────────────────────────────────┐│  ROSTER CHANGES (RV) FILE            │     │  DAB1_2026-30_AMZL_inputs.xlsx            │
+│  (lives on the \\ant network drive) │     │  (you generated this LOCALLY)            │
+│                                     │     │                                          │
+│  One row per change:                │     │  ┌─────────────┐   ┌──────────────────┐  │
+│   • Change type (Release/Transfer)  │     │  │ ROSTER tab  │   │ TRANSFERS tab    │  │
+│   • Employee ID                     │     │  │             │   │                  │  │
+│   • Current shift code              │     │  │ everyone    │   │ the +/- head     │  │
+│   • FUTURE shift code               │     │  │ currently   │   │ moves ALPS       │  │
+│   • Effective date                  │     │  │ on roster + │   │ should apply     │  │
+│                                     │     │  │ their shift │   │                  │  │
+└─────────────────────────────────────┘     │  └─────────────┘   └──────────────────┘  │
+                                             └─────────────────────────────────────────┘
+
+* Roster tab = a big list: employee ID → the shift code they're on right now.
+* Transfers tab = a list of adjustments: "add a head here (+1), remove a head there (−1).
+
+Your 3 employees from the RV file
+
+
+
+Emp ID       Change type            Current code     Future code     Effective 
+206268224    Release (FTC)          S-CI316A-RTS     (blank)         18/07
+207696931    Release (FTC)          N-FU603G-NDS     (blank)         18/07
+207742861    Shift transfer         N-FU403G-NDS  →  N-FU603G-NDS    19/07
+
+
+
+Two are leavers (no future code — they're just gone). One is a transfer (moving from one shift to another).
+
+
+
+The key question the XLOOKUP answers
+
+For each person, you must find out: "What shift code does the Roster tab currently have them on?" Because that decides whether the change is already done or still needs doing.
+XLOOKUP is just an automatic lookup. Here's the mechanic, visually:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+---
+
 ✅ **Outcome**
 
 By the end of this process:
