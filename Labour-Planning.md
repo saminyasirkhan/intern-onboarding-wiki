@@ -409,19 +409,21 @@ The final horizon result: https://horizon.harmony.a2z.com/horizon/amzl/alpx?plan
 
 <img src="images/picture%201.png" alt="Roster Validation Example" width="100%">
 
-### *Roster tab = a big list: employee ID → the shift code they're on right now.
-### *Transfers tab = a list of adjustments: "add a head here (+1), remove a head there (−1).
+*Roster tab = a big list: employee ID → the shift code they're on right now.*
+
+*Transfers tab = a list of adjustments: "add a head here (+1), remove a head there (−1).*
+
+
+
+
 
 Your 3 employees from the RV file
 
-<img src="images/picture%202.png" alt="3 employees from the RV file" width="100%">
+<img src="images/picture%202.png" alt="3 employees from the RV file" width="100%">_
 
+_Two are leavers (no future code — they're just gone). One is a transfer (moving from one shift to another)._
 
-Two are leavers (no future code — they're just gone). One is a transfer (moving from one shift to another).
-
-
-
-The key question the XLOOKUP answers
+### The key question the XLOOKUP answers
 
 For each person, you must find out: "What shift code does the Roster tab currently have them on?" Because that decides whether the change is already done or still needs doing.
 XLOOKUP is just an automatic lookup. Here's the mechanic, visually:
