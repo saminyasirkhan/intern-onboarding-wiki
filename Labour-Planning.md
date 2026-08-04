@@ -322,7 +322,7 @@ https://w.amazon.com/bin/view/AMZL-EU-PANDA/BI/NewJoinee/SA_Planning/Setting_RDS
 
 ## 📖 The Big Picture: Why Roster Validation Exists
 
-ALPS decides how many people **DAB1** needs each shift. To do that, it first needs to know **who is actually expected to work next week**.
+ALPS decides how many people **the station (e.g,. DAB1)** needs each shift. To do that, it first needs to know **who is actually expected to work next week**.
 
 However, associates are constantly:
 - Joining
