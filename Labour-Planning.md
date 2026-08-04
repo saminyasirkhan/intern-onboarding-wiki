@@ -437,13 +437,26 @@ So it walks down column A until it hits 207742861, then jumps sideways to column
 
 
 <details>
-<summary. The decision, as a flowchart </summary>
+<summary>📊 The Decision, as a Flowchart</summary>
 
-<img src="images/flowchart%201.png" alt="Decision tree flowchart for further clarification" width="100%">_
+<img src="images/flowchart%201.png" alt="Decision tree flowchart for further clarification" width="100%">
 
+Your result was **N-FU403G-NDS** → the **old code** → **roster not updated yet** → **keep the transfer**. ✅
 
 </details>
 
+
+
+<details>
+<summary> Why "keep" is correct — the −1 / +1 mechanic</summary>
+
+<img src="images/picture%204.png" alt="further reassurance" width="100%">
+
+Since the Roster tab still shows this person on the old shift, ALPS needs both nudges: pull them off the old one, place them on the new one. Net effect = the transfer. That's exactly what rows 4 & 5 do — so they're right, untouched.
+If the roster had already shown the new code, both these rows would be double-counting (the roster would show them on the new shift and the transfers tab would add another head to it) — that's the case where you'd delete them.
+
+
+</details>
 
 
 
