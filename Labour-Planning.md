@@ -436,6 +436,13 @@ So it walks down column A until it hits 207742861, then jumps sideways to column
 
 
 
+<details>
+<summary. The decision, as a flowchart </summary>
+
+<img src="images/flowchart%201.png" alt="Decision tree flowchart for further clarification" width="100%">_
+
+
+</details>
 
 
 
@@ -445,12 +452,6 @@ So it walks down column A until it hits 207742861, then jumps sideways to column
 
 
 
-
-
-
-
-
-  
 ---
 
 ✅ **Outcome**
