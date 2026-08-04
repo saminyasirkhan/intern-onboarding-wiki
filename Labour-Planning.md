@@ -478,23 +478,67 @@ If the roster had already shown the new code, both these rows would be double-co
 
 
 
-
 <details>
 <summary>📊 How to Add Shift Codes into SSPOT</summary>
 
-Sometimes in the **Transfers** tab you will notice shift codes highlighted in red.
+Sometimes in the **Transfers** tab, you may notice shift codes highlighted in red.
 
 <img src="images/scm1.png" alt="Shift codes highlighted in red" width="100%">
 
-This simply means that these shift codes need to be added into **[SSPOT](https://sspot.dub.corp.amazon.com/)**.
+This means that those shift codes need to be added into **[SSPOT](https://sspot.dub.corp.amazon.com/)**.
 
-This process can be divided into two steps:
+The process can be divided into two steps:
 
-First step - go into the "activity_time" tab as shown in the picture below to find out the cycle (workgroups in SSPOT)
+---
 
-<img src="images/activity.png" alt="activity_time tab" width="100%">
+<details>
+<summary>1️⃣ Step One: Identify the Main Activity and Work Groups</summary>
 
-Second step - Go to  **[SSPOT](https://sspot.dub.corp.amazon.com/)** and select your correct site. Once that has been done go to staffing actions. Inside there select the "create shift code" staffing action. Once that has been done select the main activity of the shift (NOTE: each shift can only have one main activity), and then select the correct work groups associates with that shift code (.e.g, 
+Open the `activity_time` tab in the Inputs File.
+
+Use this tab to identify:
+
+- The correct **cycle**
+- The correct **main activity**
+- The relevant **work groups** associated with the shift code
+
+<img src="images/activity.png" alt="Activity time tab showing cycle and activity information" width="100%">
+
+> **Important:**  
+> In SSPOT, the cycle information from the `activity_time` tab is used to help determine the correct work groups.
+
+</details>
+
+---
+
+<details>
+<summary>2️⃣ Step Two: Create the Shift Code in SSPOT</summary>
+
+Open **[SSPOT](https://sspot.dub.corp.amazon.com/)** and select the correct site.
+
+Then:
+
+1. Go to **Staffing Actions**.
+2. Select the **Create Shift Codes** staffing action.
+3. Select the correct **Main Activity** identified in the `activity_time` tab.
+4. Select the relevant **Work Groups** associated with the shift code.
+5. Enter the required shift code, for example:
+
+   `S-AB413G-UTRPA`
+
+6. Set the **Start Date** to a date in the previous week.
+7. Complete the remaining date and pattern fields as required.
+
+<img src="images/SSPOT1.png" alt="SSPOT Create Shift Codes screen" width="100%">
+
+> **Important:**  
+> Each shift code can only have one main activity.
+
+> **Note:**  
+> Using a date from the previous week is a general rule of thumb. Some stations may request that a shift code begins from a specific date.
+
+</details>
+
 </details>
 
 ---
