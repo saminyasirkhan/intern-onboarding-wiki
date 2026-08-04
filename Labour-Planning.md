@@ -480,26 +480,21 @@ If the roster had already shown the new code, both these rows would be double-co
 
 
 <details>
-<summary>📊 How to add into SSPOT</summary>
+<summary>📊 How to Add Shift Codes into SSPOT</summary>
 
-Sometimes in the transfers tab you will notice shift codes being highlighted red 
-<img src="images/flowchart%201.png" alt="Decision tree flowchart for further clarification" width="100%">
+Sometimes in the **Transfers** tab you will notice shift codes highlighted in red.
 
+<img src="images/scm1.png" alt="Shift codes highlighted in red" width="100%">
 
+This simply means that these shift codes need to be added into **[SSPOT](https://sspot.dub.corp.amazon.com/)**.
 
-</details>
+This process can be divided into two steps:
 
+First step - go into the "activity_time" tab as shown in the picture below to find out the cycle (workgroups in SSPOT)
 
+<img src="images/activity.png" alt="activity_time tab" width="100%">
 
-<details>
-<summary> Why "keep" is correct — the −1 / +1 mechanic</summary>
-
-<img src="images/picture%204.png" alt="further reassurance" width="100%">
-
-Since the Roster tab still shows this person on the old shift, ALPS needs both nudges: pull them off the old one, place them on the new one. Net effect = the transfer. That's exactly what rows 4 & 5 do — so they're right, untouched.
-If the roster had already shown the new code, both these rows would be double-counting (the roster would show them on the new shift and the transfers tab would add another head to it) — that's the case where you'd delete them.
-
-
+Second step - Go to  **[SSPOT](https://sspot.dub.corp.amazon.com/)** and select your correct site. Once that has been done go to staffing actions. Inside there select the "create shift code" staffing action. Once that has been done select the main activity of the shift (NOTE: each shift can only have one main activity), and then select the correct work groups associates with that shift code (.e.g, 
 </details>
 
 ---
