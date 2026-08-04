@@ -52,14 +52,44 @@ Amazon's instant messaging platform used for team communication, channels, annou
 
 Your Amazon email and calendar used for meetings, invitations, and formal communication.
 
-# 💬 Additional Links 🔗
-
-1. SSPOT Main Activity & FCLM Mapping Standard Operating Procedure (SOP): https://policy.a2z.com/docs/722339/publication
-
-2.  Amazon QuickSight dashboard titled "[EU][UTR] ALPS Roster Grail Audit": https://us-east-1.quicksight.aws.amazon.com/sn/account/amzlbiaquicksight/dashboards/44f8d07b-e4ff-43bc-92c8-8bbaf8c7f11e/sheets/44f8d07b-e4ff-43bc-92c8-8bbaf8c7f11e_6d4d2f46-4460-488d-91fd-6ae3f9ced3e3?qs-signin-user-auth=false&sso_login=true#
-
-3.  Amazon Template Approval: https://approvals.amazon.com/template/155909/details/all-details
-   
-4. Amazon Tools Shop: https://shop.it.a2z.com/aiforme
 
 
+
+
+
+
+# 🔗 Additional Links
+
+### ✅ Amazon Template Approval
+🔗 https://approvals.amazon.com/template/155909/details/all-details
+
+Amazon's approval portal used to create, review, and manage template approval requests.
+
+---
+
+<details>
+<summary>🛠️ Amazon Tool Shop (Recommended Tools)</summary>
+
+The Amazon Tool Shop contains hundreds of internal applications. Below are a few that I found particularly useful during my internship.
+
+---
+
+### 📊 Amazon QuickSight
+
+Business intelligence dashboards used for reporting, analytics, and operational insights.
+
+---
+
+### 📝 Quip
+
+Collaborative documents and spreadsheets widely used across Amazon teams.
+
+---
+
+### 🌐 Browse More Tools
+
+🔗 https://shop.it.a2z.com/aiforme
+
+Explore the full catalogue of internal Amazon tools and request access where applicable.
+
+</details>
