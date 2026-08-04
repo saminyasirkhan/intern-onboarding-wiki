@@ -56,6 +56,10 @@ Your Amazon email and calendar used for meetings, invitations, and formal commun
 
 1. SSPOT Main Activity & FCLM Mapping Standard Operating Procedure (SOP): https://policy.a2z.com/docs/722339/publication
 
-2. 
+2.  Amazon QuickSight dashboard titled "[EU][UTR] ALPS Roster Grail Audit": https://us-east-1.quicksight.aws.amazon.com/sn/account/amzlbiaquicksight/dashboards/44f8d07b-e4ff-43bc-92c8-8bbaf8c7f11e/sheets/44f8d07b-e4ff-43bc-92c8-8bbaf8c7f11e_6d4d2f46-4460-488d-91fd-6ae3f9ced3e3?qs-signin-user-auth=false&sso_login=true#
+
+3.  Amazon Template Approval: https://approvals.amazon.com/template/155909/details/all-details
+   
+4. Amazon Tools Shop: https://shop.it.a2z.com/aiforme
 
 
