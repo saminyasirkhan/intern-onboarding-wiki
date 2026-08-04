@@ -462,13 +462,45 @@ If the roster had already shown the new code, both these rows would be double-co
 
 
 
+<details>
+<summary> Releases vs Transfers vs Extensions</summary>
+
+These are the three TRANSFER_TYPE values in your file. Here's how each behaves:
+
+
+<img src="images/picture%206.png" alt=" Releases vs Transfers vs Extensions" width="100%">
+
+Since the Roster tab still shows this person on the old shift, ALPS needs both nudges: pull them off the old one, place them on the new one. Net effect = the transfer. That's exactly what rows 4 & 5 do — so they're right, untouched.
+If the roster had already shown the new code, both these rows would be double-counting (the roster would show them on the new shift and the transfers tab would add another head to it) — that's the case where you'd delete them.
+
+
+</details>
 
 
 
 
+<details>
+<summary>📊 How to add into SSPOT</summary>
+
+Sometimes in the transfers tab you will notice shift codes being highlighted red 
+<img src="images/flowchart%201.png" alt="Decision tree flowchart for further clarification" width="100%">
 
 
 
+</details>
+
+
+
+<details>
+<summary> Why "keep" is correct — the −1 / +1 mechanic</summary>
+
+<img src="images/picture%204.png" alt="further reassurance" width="100%">
+
+Since the Roster tab still shows this person on the old shift, ALPS needs both nudges: pull them off the old one, place them on the new one. Net effect = the transfer. That's exactly what rows 4 & 5 do — so they're right, untouched.
+If the roster had already shown the new code, both these rows would be double-counting (the roster would show them on the new shift and the transfers tab would add another head to it) — that's the case where you'd delete them.
+
+
+</details>
 
 ---
 
@@ -478,6 +510,7 @@ By the end of this process:
 
 - The **Roster Changes File** and **Inputs File** should match.
 - Every transfer has been validated.
+- SSPOT configurations has been sorted
 - ALPS can generate an accurate labour plan using the correct staffing data.
 
 </details>
@@ -498,3 +531,7 @@ By the end of this process:
 <details>
 <summary>👷🏼‍♂️ Second Step: Running the input files into ALPS</summary>
 
+
+
+<details>
+<summary>👷🏼 </summary>
