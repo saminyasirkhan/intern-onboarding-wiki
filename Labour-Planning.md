@@ -541,6 +541,26 @@ Then:
 
 </details>
 
+
+
+
+---
+<details>
+<summary>🚀 Advanced SSPOT Validation</summary>
+
+If the first start date for an associate under a shift code falls on a **Sunday**, use the **next working day after the break** instead.
+
+For example:
+
+<img src="images/a1.png" alt="Example showing a Sunday start date" width="100%">
+
+<img src="images/a2.png" alt="Corrected start date using the next day after the break" width="100%">
+
+> **Note:**  
+> Do not worry about the letter **“F”** shown in the example. It is simply the initial of the supervisor who originally provided this guidance.
+
+</details>
+
 ---
 
 ✅ **Outcome**
