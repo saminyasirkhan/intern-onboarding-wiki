@@ -36,6 +36,13 @@ The AMZL planning portal used to generate input files, launch plans, and manage 
 
 Amazon's AI assistant for automating planning tasks, querying ALPS, and providing AI-powered support through chat.
 
+
+### 5️⃣ 👥 Sharepoint 
+🔗 https://amazoneur-my.sharepoint.com/:x:/g/personal/luciambr_amazon_es/IQCFDcSbO01zSKI3mP0b1QVPAdjjFeds1VRPKBXptdDo7Pg?e=eHrkYp
+
+This it to check wave changes 
+
+
 ---
 
 # 💬 Communication & Collaboration
