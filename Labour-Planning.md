@@ -419,7 +419,7 @@ The final horizon result: https://horizon.harmony.a2z.com/horizon/amzl/alpx?plan
 
 Your 3 employees from the RV file
 
-<img src="images/picture%202.png" alt="3 employees from the RV file" width="100%">_
+<img src="images/picture%202.png" alt=" employees from the RV file" width="100%">_
 
 _Two are leavers (no future code — they're just gone). One is a transfer (moving from one shift to another)._
 
@@ -427,6 +427,12 @@ _Two are leavers (no future code — they're just gone). One is a transfer (movi
 
 For each person, you must find out: "What shift code does the Roster tab currently have them on?" Because that decides whether the change is already done or still needs doing.
 XLOOKUP is just an automatic lookup. Here's the mechanic, visually:
+
+
+<img src="images/picture%203.png" alt="Visual representation of the XLOOKUP function" width="100%">_
+
+So it walks down column A until it hits 207742861, then jumps sideways to column I and hands you the shift code on that row. That's all it does — "find this person, tell me their current shift."
+(The Find & Replace you tried earlier searched for the code — it found lots of rows but couldn't tell you whose they were. XLOOKUP pins it to the person. That's why it's the right tool.)
 
 
 
