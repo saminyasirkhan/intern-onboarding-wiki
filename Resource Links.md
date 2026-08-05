@@ -27,6 +27,8 @@ Self-service planning and operations tool used to retrieve site data and reports
 ### 4️⃣ 🌍 Horizon
 🔗 https://horizon.harmony.a2z.com/horizon/amzl
 
+For rates: https://horizon.harmony.a2z.com/amzl
+
 The AMZL planning portal used to generate input files, launch plans, and manage the end-to-end planning workflow.
 
 ---
